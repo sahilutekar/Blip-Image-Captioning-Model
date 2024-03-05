@@ -5,7 +5,7 @@ processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
 # Load image from local file system
-img_path = "C:\\Users\\acer\\Desktop\\moondream-main\\assets\\OIP.jpg"  # Change 'path_to_your_image' to the actual path of your image
+img_path = ""  # Change 'path_to_your_image' to the actual path of your image
 raw_image = Image.open(img_path).convert('RGB')
 
 # Conditional image captioning
